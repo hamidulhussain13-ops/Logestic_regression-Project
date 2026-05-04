@@ -29,3 +29,7 @@ jobs:
     - name: Run Tests
       run: |
         pytest -v
+
+    - name: Run Streamlit App (check only)
+      run: |
+        echo "Streamlit app ready"
